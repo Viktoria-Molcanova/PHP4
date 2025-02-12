@@ -1,5 +1,5 @@
 <?php
-
+namespace {
 
 abstract class Book
 {
@@ -83,3 +83,4 @@ $physicalBook->incrementReadCount();
 
 echo $digitalBook->getTitle() . " - Автор: " . $digitalBook->getAuthor() . " - " . $digitalBook->getAccessInfo() . " Счётчик прочтения: " . $digitalBook->getReadCount() . "\n";
 echo $physicalBook->getTitle() . " - Автор: " . $physicalBook->getAuthor() . " - " . $physicalBook->getAccessInfo() . " Счётчик прочтения: " . $physicalBook->getReadCount() . "\n";
+}
